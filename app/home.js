@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex gap-8">
           <a href="#home">Home</a>
           <a href="#projects>">Projects</a>
-          <a href="#about">About Us</a>
+          <a href="#about">About Me</a>
           <a href="#work">Work</a>
           <a href="#Hobbies">Hobbies</a>
           <a href="#Blog">Blog</a>
