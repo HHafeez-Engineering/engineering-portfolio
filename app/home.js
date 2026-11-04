@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         {/* Right side */}
         <div className="flex gap-8">
           <a href="#home">Home</a>
-          <a href="#projects>">Projects</a>
+          <Link href="/projects">Projects</Link>
           <a href="#about">About Me</a>
           <a href="#work">Work</a>
           <a href="#Hobbies">Hobbies</a>
