@@ -49,8 +49,8 @@ export default function RCCarProject() {
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
 
           <img
-            src="/projects/rc-car/rc-car-1.jpg"
-            alt="RC Car project"
+            src="/projects/rc-car/RC_Car_My_3rd_Place_pic.jpeg"
+            alt="My RC Car project - Third Place"
             className="w-full rounded-xl"
           />
 
@@ -79,7 +79,7 @@ export default function RCCarProject() {
           className="mt-6 w-full max-w-3xl rounded-xl"
         >
           <source
-            src="/projects/rc-car/rc-car-demo.mp4"
+            src="/projects/rc-car/RC_Car_vid1.mp4"
             type="video/mp4"
           />
           Your browser does not support video playback.
