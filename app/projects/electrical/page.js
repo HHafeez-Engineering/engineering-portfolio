@@ -20,7 +20,7 @@ export default function ElectricalProjects() {
           className="group overflow-hidden rounded-xl border border-purple-500/40 bg-purple-950/20 transition-all duration-300 hover:-translate-y-2 hover:border-purple-400 hover:shadow-lg hover:shadow-purple-500/20"
         >
           <img
-            src="/projects/rc-car/rc-car-1.jpg"
+            src="/projects/rc-car/RC_Car_3rd_Place_pic.JPEG"
             alt="My ESP32 remote control car"
             className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
