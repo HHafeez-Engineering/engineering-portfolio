@@ -28,15 +28,87 @@ export default function RCCarProject() {
         </h2>
 
         <p className="mt-5 max-w-4xl text-lg leading-relaxed">
-          This project involved designing and building a
-          remote-controlled car using two ESP32 microcontrollers.
+            This project was completed as part of ENEL 300 -
+            Electrical and Computer Engineering Professional Skills
+            at the University of Calgary.
 
-          The car uses ESP-NOW wireless communication
-          between a handheld controller and the vehicle.
+            Our team was tasked with designing, building, and testing
+            a fully functional remote-controlled car.
 
-          The project combines embedded programming,
-          motor control, servo steering, and electronic
-          hardware integration.
+            The project involved embedded programming, wireless
+            communication, motor control, servo steering, and
+            electronic hardware integration.
+        </p>
+
+        {/* Components Used */}
+        <h2 className="mt-10 text-3xl font-bold text-purple-400">
+        Components Used
+        </h2>
+
+        <ul className="mt-5 list-disc space-y-2 pl-6 text-lg">
+        <li>2x ESP32 Microcontrollers (Transmitter & Receiver)</li>
+        <li>ESP-NOW Wireless Communication</li>
+        <li>540 Brushed DC Motor</li>
+        <li>30A Dual Channel H-Bridge Motor Driver</li>
+        <li>Servo Motor for Steering</li>
+        <li>Joystick Modules for Controller Input</li>
+        <li>16x2 LCD Display</li>
+        <li>LiPo Battery and Voltage Regulator</li>
+        <li>Ultrasonic Sensor</li>
+        <li>LEDs, Buzzer, and Electronic Components</li>
+        <li>Custom 3D-Printed Parts and RC Car Chassis</li>
+        </ul>
+
+        {/* Design and Development */}
+        <h2 className="mt-10 text-3xl font-bold text-purple-400">
+        Design & Development
+        </h2>
+
+        <p className="mt-5 max-w-4xl text-lg leading-relaxed">
+        The car uses two ESP32 microcontrollers communicating
+        wirelessly through ESP-NOW.
+
+        One ESP32 acts as the handheld controller, reading
+        joystick inputs and transmitting commands.
+
+        The second ESP32 receives these commands and controls
+        the DC motor speed, driving direction, and servo steering.
+
+        We also integrated additional electronic components
+        and developed the firmware to coordinate the system.
+        </p>
+
+        {/* Testing */}
+        <h2 className="mt-10 text-3xl font-bold text-purple-400">
+        Testing & Challenges
+        </h2>
+
+        <p className="mt-5 max-w-4xl text-lg leading-relaxed">
+        Throughout development, we tested wireless communication,
+        motor speed and direction, steering response, and
+        power delivery.
+
+        We also worked on improving system reliability by
+        troubleshooting motor driver overheating, servo jitter,
+        and power-related issues.
+
+        Multiple design improvements were made to ensure
+        reliable operation during the final competition.
+        </p>
+
+        {/* Results */}
+        <h2 className="mt-10 text-3xl font-bold text-purple-400">
+        Project Results
+        </h2>
+
+        <p className="mt-5 max-w-4xl text-lg leading-relaxed">
+        Our team successfully developed a working
+        remote-controlled car and achieved 3rd place
+        in the ENEL 300 final competition.
+
+        This project strengthened my experience in embedded
+        systems, firmware development, circuit integration,
+        troubleshooting, and engineering teamwork.
         </p>
       </section>
 
