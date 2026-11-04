@@ -123,7 +123,7 @@ export default function RCCarProject() {
           <img
             src="/projects/rc-car/RC_Car_My_3rd_Place_pic.jpeg"
             alt="My RC Car project - Third Place"
-            className="w-full rounded-xl"
+            className="w-full max-w-xs h-auto rounded-xl"
           />
 
           <img
@@ -148,7 +148,7 @@ export default function RCCarProject() {
         <video
           controls
           preload="metadata"
-          className="mt-6 w-full max-w-3xl rounded-xl"
+          className="mt-6 w-full max-w-md h-auto rounded-xl"
         >
           <source
             src="/projects/rc-car/RC_Car_vid1.mp4"
