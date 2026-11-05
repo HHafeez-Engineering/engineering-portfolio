@@ -118,7 +118,7 @@ export default function RCCarProject() {
           Project Gallery
         </h2>
 
-        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 justify-items-center max-w-4xl mx-auto">
 
           <img
             src="/projects/rc-car/RC_Car_My_3rd_Place_pic.jpeg"
@@ -127,9 +127,9 @@ export default function RCCarProject() {
           />
 
           <img
-            src="/projects/rc-car/rc-car-2.jpg"
+            src="/projects/rc-car/RC_Car_My_3rd_Place_Metal_pic.jpeg"
             alt="RC Car electronic components"
-            className="w-full rounded-xl"
+            className="w-full max-w-xs h-auto rounded-xl"
           />
 
         </div>
@@ -144,35 +144,8 @@ export default function RCCarProject() {
         <p className="mt-4">
           Watch the RC Car in action.
         </p>
-
-        {/*
-        <video
-          controls
-          preload="metadata"
-          className="mt-6 w-full max-w-md h-auto rounded-xl"
-        >
-          <source
-            src="/projects/rc-car/RC_Car_vid1.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support video playback.
-        </video>
-
-        <video
-          controls
-          preload="metadata"
-          className="mt-6 w-full max-w-md h-auto rounded-xl"
-        >
-          <source
-            src="/projects/rc-car/RC_Car_vid1.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support video playback.
-        </video>        
-        */}
-
         
-        <div className="mt-6 flex flex-wrap gap-6">
+        <div className="mt-6 flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
 
           {/* Video 1 */}
           <video
