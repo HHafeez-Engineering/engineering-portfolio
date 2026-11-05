@@ -14,7 +14,7 @@ export default function Home() {
           </h2>
 
           <span className="text-xl">
-            Huzz Portfolio
+            Hufi Portfolio
           </span>
         </div>
 
