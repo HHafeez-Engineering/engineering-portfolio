@@ -4,13 +4,24 @@ export default function RCCarProject() {
   return (
     <main className="min-h-screen px-10 py-16">
 
-      {/* Back Button */}
+     {/* Back Button */}
       <Link
         href="/projects/electrical"
         className="text-purple-400 hover:underline"
       >
         ← Back to Electrical Projects
       </Link>
+
+      {/* Under Development Notice */}
+      <div className="mt-6 rounded-xl border-2 border-yellow-400 bg-yellow-500/10 px-6 py-4 text-center shadow-lg shadow-yellow-500/10">
+        <p className="text-xl font-bold text-yellow-300 md:text-2xl">
+          🚧 This Project Page Is Still Under Development! 🚧
+        </p>
+
+        <p className="mt-2 text-sm text-gray-300">
+          More project details, photos, and demonstrations are coming soon.
+        </p>
+      </div>
 
       {/* Title */}
       <h1 className="mt-10 text-5xl font-bold text-purple-400">
@@ -186,7 +197,7 @@ export default function RCCarProject() {
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-400">
               Stops the motor when wireless commands
-              are not received within a specified timeout.
+              are not received within a specified time.
             </p>
           </div>
 

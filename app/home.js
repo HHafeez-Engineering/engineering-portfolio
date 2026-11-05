@@ -29,6 +29,20 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Under Development Notice */}
+      <div className="mt-6 rounded-xl border-2 border-yellow-400 bg-yellow-500/10 px-6 py-4 text-center shadow-lg shadow-yellow-500/10">
+        <p className="text-xl font-bold text-yellow-300 md:text-2xl">
+          🚧 This Page Is Still Under Development! 🚧
+        </p>
+
+        <p>
+          Try the Projects
+        </p>
+
+        <p className="mt-2 text-sm text-gray-300">
+          More project details, photos, and demonstrations are coming soon.
+        </p>
+      </div>
 
     {/* Main Homepage */}
     <section
