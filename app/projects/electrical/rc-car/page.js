@@ -145,6 +145,7 @@ export default function RCCarProject() {
           Watch the RC Car in action.
         </p>
 
+        {/*
         <video
           controls
           preload="metadata"
@@ -156,6 +157,74 @@ export default function RCCarProject() {
           />
           Your browser does not support video playback.
         </video>
+
+        <video
+          controls
+          preload="metadata"
+          className="mt-6 w-full max-w-md h-auto rounded-xl"
+        >
+          <source
+            src="/projects/rc-car/RC_Car_vid1.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support video playback.
+        </video>        
+        */}
+
+        
+        <div className="mt-6 flex flex-wrap gap-6">
+
+          {/* Video 1 */}
+          <video
+            controls
+            preload="metadata"
+            className="w-full max-w-md h-auto rounded-xl"
+          >
+            <source
+              src="/projects/rc-car/RC_Car_vid1.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          {/* Video 2 */}
+          <video
+            controls
+            preload="metadata"
+            className="w-full max-w-md h-auto rounded-xl"
+          >
+            <source
+              src="/projects/rc-car/RC_Car_vid2.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          {/* Video 3 */}
+          <video
+            controls
+            preload="metadata"
+            className="w-full max-w-md h-auto rounded-xl"
+          >
+            <source
+              src="/projects/rc-car/RC_Car_vid3.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          {/* Video 4 */}
+          <video
+            controls
+            preload="metadata"
+            className="w-full max-w-md h-auto rounded-xl"
+          >
+            <source
+              src="/projects/rc-car/RC_Car_vid4.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+        </div>
+
+
       </section>
 
       {/* Technologies */}
