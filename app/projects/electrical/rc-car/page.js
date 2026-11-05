@@ -21,8 +21,14 @@ export default function RCCarProject() {
         ESP32 | Embedded Systems | Firmware | Hardware Design
       </p>
 
-      {/* Description */}
-      <section className="mt-12">
+
+      
+    {/* Main Content: 80% Description + 20% Sidebar */}
+    <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,4fr)_minmax(0,1fr)]">
+
+      {/* Left Side: Project Description */}
+      <section className="min-w-0">
+
         <h2 className="text-3xl font-bold">
           Project Overview
         </h2>
@@ -111,6 +117,83 @@ export default function RCCarProject() {
         troubleshooting, and engineering teamwork.
         </p>
       </section>
+
+      {/* Right Side: Engineering Insights */}
+      <aside className="min-w-0 self-start rounded-xl border border-purple-500/40 bg-purple-950/20 p-5">
+
+        <h2 className="text-xl font-bold text-purple-400">
+          Engineering Insights
+        </h2>
+
+        <div className="mt-6 space-y-6">
+
+          {/* Fact 1 */}
+          <div>
+            <h3 className="text-base font-semibold">
+              ESP-NOW
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-400">
+              A wireless protocol that allows ESP32 devices
+              to communicate directly without a Wi-Fi router.
+            </p>
+          </div>
+
+          <hr className="border-purple-500/20" />
+
+          {/* Fact 2 */}
+          <div>
+            <h3 className="text-base font-semibold">
+              PWM
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-400">
+              Pulse Width Modulation controls motor speed
+              by adjusting the duty cycle of a switching signal.
+            </p>
+          </div>
+
+          <hr className="border-purple-500/20" />
+
+          {/* Fact 3 */}
+          <div>
+            <h3 className="text-base font-semibold">
+              H-Bridge
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-400">
+              An electronic circuit that controls DC motor
+              direction by reversing the voltage polarity.
+            </p>
+          </div>
+
+          <hr className="border-purple-500/20" />
+
+          {/* Fact 4 */}
+          <div>
+            <h3 className="text-base font-semibold">
+              Servo Motor
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-400">
+              A motor with position control, used in this
+              project to steer the RC car.
+            </p>
+          </div>
+
+          <hr className="border-purple-500/20" />
+
+          {/* Fact 5 */}
+          <div>
+            <h3 className="text-base font-semibold">
+              Failsafe System
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-400">
+              Stops the motor when wireless commands
+              are not received within a specified timeout.
+            </p>
+          </div>
+
+        </div>
+      </aside>
+
+    </div>
 
       {/* Images */}
       <section className="mt-16">
@@ -215,7 +298,6 @@ export default function RCCarProject() {
           <li>Electronic Circuit Design</li>
         </ul>
       </section>
-
     </main>
   );
 }
